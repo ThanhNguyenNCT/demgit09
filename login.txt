@@ -1,0 +1,18 @@
+-github sẽ sử dụng server chung
+-gitlab thường sẽ dùng server riêng, bảo mật hơn
+
+------------ GITHUB --------------------
+- Tạo repo
+- Trên git người ta gọi là origin(remote file)
+- Trên máy tính người ta gọi là local
+- Khi tạo repo trên github, nó sẽ tạo ra một repo mới trên github
+- Đầu tiên phải nhập lệnh git init để tạo một repo mới trên máy tính(tạo file .git)
+- Lệnh git status để kiểm tra trạng thái của file, kiểm tra xem sự khác biệt giữa local và remote
+- Muốn đẩy file local lên origin thì phải commit bằng các lệnh:
+    + git add . (để thêm tất cả file) và git add *(thêm tất cả các file ngoại trừ file ẩn)
+    + git commit -m "ghi chú" (để thêm ghi chú vào file)
+    + git push origin master (để đẩy file lên origin)
+- Muốn pull file từ origin về local thì phải dùng lệnh:
+    + git pull origin master (để pull file từ origin về local)
+
+
