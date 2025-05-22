@@ -14,5 +14,5 @@
     + git push origin master (để đẩy file lên origin)
 - Muốn pull file từ origin về local thì phải dùng lệnh:
     + git pull origin master (để pull file từ origin về local)
-
+- Tìm hiểu thêm: git reset, git rebase, git revert, git stash
 
